@@ -18,10 +18,7 @@ aplicación** que comparten el almacén, la oficina, los transportistas y Recurs
 Lleva lo que entra, lo que se guarda, lo que se vende y sale en camión, quién lo ha hecho, cuánto se factura y se cobra,
 y cuánto entra y sale cada mes. Cada caja tiene su matrícula y cada paso queda apuntado con quién y cuándo.
 
-```mermaid
-flowchart LR
-    A[Compra] --> B[Entrada] --> C[Almacén] --> D[Pedido] --> E[Preparación] --> F[Salida] --> G[Factura] --> H[Cobro] --> I[Cuentas]
-```
+> **Compra** → **Entrada** → **Almacén** → **Pedido** → **Preparación** → **Salida** → **Factura** → **Cobro** → **Cuentas**
 
 Nadie vuelve a teclear lo que ya está en el sistema: el albarán sale de las cajas que se cargaron, la factura de los
 albaranes, y el resumen económico y los asientos, de todo lo anterior.
